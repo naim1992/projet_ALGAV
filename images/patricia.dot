@@ -1,0 +1,10 @@
+digraph Test{ 
+node[shape=record]
+r[label="<act#>act |<enter#>enter |<f>f|<henry#>henry |<i#>i |<king#>king |<lo>lo|<of#>of |<pa>pa|<scene#>scene |<the#>the "];
+rf[label="<irst#>irst |<ourth#>ourth "];
+r:f->rf;
+rlo[label="<ndon#>ndon |<rd#>rd "];
+r:lo->rlo;
+rpa[label="<lace#>lace |<rt#>rt "];
+r:pa->rpa;
+}
